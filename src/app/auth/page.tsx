@@ -1,10 +1,9 @@
+import LoginForm from "@/components/LoginForm/LoginForm";
+
 export default function AuthPage() {
   return (
-    <div className="text-gray-800 p-8 h-full overflow-y-auto pb-24">
-      <header className="flex justify-between items-center">
-        <h1 className="text-2xl font-bold flex items-center">Auth Page</h1>
-      </header>
-      <div className="mt-8 flex flex-wrap gap-4"></div>
+    <div className="flex flex-col h-screen justify-center items-center">
+        <LoginForm />
     </div>
   );
 }
