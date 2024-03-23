@@ -39,7 +39,7 @@ const NavList = () => {
     // },
   ];
   return (
-    <div className="mt-24">
+    <div className="mt-12">
       {navList.map((navItem) => {
         return (
           <NavItem
