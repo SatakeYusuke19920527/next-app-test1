@@ -18,7 +18,7 @@ const Navbar = () => {
             className="bg-grey-light rounded-md w-full col-span-1 text-right gap-3"
             aria-label="breadcrumb2"
           >
-            <Link href={`/signIn`} className="hover:text-gray-600">
+            <Link href={`/auth`} className="hover:text-gray-600">
               ログイン
             </Link>
           </div>

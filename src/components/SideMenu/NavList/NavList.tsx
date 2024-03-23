@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaRegCheckSquare, FaTasks } from 'react-icons/fa';
+import { FaTasks } from 'react-icons/fa';
 // import { , FaRegClock, FaTasks } from 'react-icons/fa';
 // import { IoMdLogIn } from 'react-icons/io';
 import NavItem from './NavItem/NavItem';
@@ -19,12 +19,12 @@ const NavList = () => {
       link: '/',
       icon: <FaTasks className="size-5" />,
     },
-    {
-      id: 2,
-      label: 'Auth',
-      link: '/auth',
-      icon: <FaRegCheckSquare className="size-5" />,
-    },
+    // {
+    //   id: 2,
+    //   label: 'Auth',
+    //   link: '/auth',
+    //   icon: <FaRegCheckSquare className="size-5" />,
+    // },
     // {
     //   id: 3,
     //   label: 'Expired Tasks',
